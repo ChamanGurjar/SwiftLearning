@@ -22,6 +22,7 @@
 		6739E3AF221DAF58004BB078 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6739E3B2221DAF58004BB078 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6739E3B4221DAF58004BB078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6739E3BC221DB048004BB078 /* Closures20Feb2019.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Closures20Feb2019.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +55,7 @@
 		6739E3A7221DAF55004BB078 /* Swift Practice */ = {
 			isa = PBXGroup;
 			children = (
+				6739E3BB221DB02F004BB078 /* Closure */,
 				6739E3A8221DAF55004BB078 /* AppDelegate.swift */,
 				6739E3AA221DAF55004BB078 /* ViewController.swift */,
 				6739E3AC221DAF55004BB078 /* Main.storyboard */,
@@ -62,6 +64,14 @@
 				6739E3B4221DAF58004BB078 /* Info.plist */,
 			);
 			path = "Swift Practice";
+			sourceTree = "<group>";
+		};
+		6739E3BB221DB02F004BB078 /* Closure */ = {
+			isa = PBXGroup;
+			children = (
+				6739E3BC221DB048004BB078 /* Closures20Feb2019.playground */,
+			);
+			path = Closure;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
