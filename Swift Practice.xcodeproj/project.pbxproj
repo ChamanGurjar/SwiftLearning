@@ -15,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		670732FA222F892C004864C8 /* ARC.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ARC.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		6739E3A5221DAF55004BB078 /* Swift Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6739E3A8221DAF55004BB078 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6739E3AA221DAF55004BB078 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +25,7 @@
 		6739E3B4221DAF58004BB078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6739E3BC221DB048004BB078 /* Closures20Feb2019.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Closures20Feb2019.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		67922131222BAF2E003AE217 /* CaptureClosure3March2019.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CaptureClosure3March2019.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		67E9E9D32230D572004EA04E /* EscapingAndAutoclosure.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = EscapingAndAutoclosure.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +39,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		670732F9222F8917004864C8 /* ARC */ = {
+			isa = PBXGroup;
+			children = (
+				670732FA222F892C004864C8 /* ARC.playground */,
+			);
+			name = ARC;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		6739E39C221DAF55004BB078 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +67,7 @@
 		6739E3A7221DAF55004BB078 /* Swift Practice */ = {
 			isa = PBXGroup;
 			children = (
+				670732F9222F8917004864C8 /* ARC */,
 				6739E3BB221DB02F004BB078 /* Closure */,
 				6739E3A8221DAF55004BB078 /* AppDelegate.swift */,
 				6739E3AA221DAF55004BB078 /* ViewController.swift */,
@@ -72,6 +84,7 @@
 			children = (
 				6739E3BC221DB048004BB078 /* Closures20Feb2019.playground */,
 				67922131222BAF2E003AE217 /* CaptureClosure3March2019.playground */,
+				67E9E9D32230D572004EA04E /* EscapingAndAutoclosure.playground */,
 			);
 			path = Closure;
 			sourceTree = "<group>";
