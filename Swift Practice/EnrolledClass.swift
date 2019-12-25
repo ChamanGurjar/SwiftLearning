@@ -1,5 +1,5 @@
 //
-//  Practice.swift
+//  Class.swift
 //  Swift Practice
 //
 //  Created by ChamanGurjar on 20/12/19.
@@ -8,12 +8,11 @@
 
 import Foundation
 
-class Practice {
+struct EnrolledClass {
     
-    var name: String?
-    //var practice = Practice(name: nil)
+    var standard = "5th"
     
-    init(name: String?) {
-        self.name = name
+    init() {
+        print("Initialising EnrolledClass")
     }
 }
