@@ -10,8 +10,11 @@ import Foundation
 
 struct Student {
     var name = "Chaman"
-    var standard = EnrolledClass()
-    //var Person = Student()
+//    var standard = EnrolledClass()
+//    var Person = Student()
+    
+    var standard: EnrolledClass
+    //var Person: Student
     
     init() {
         print("Initialising Person")
