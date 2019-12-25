@@ -11,7 +11,7 @@ import Foundation
 struct EnrolledClass {
     
     var standard = "5th"
-    var student: Student
+    var student = Student()
     
     init() {
         print("Initialising EnrolledClass")

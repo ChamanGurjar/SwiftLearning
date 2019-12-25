@@ -13,7 +13,7 @@ struct Student {
 //    var standard = EnrolledClass()
 //    var Person = Student()
     
-    var standard: EnrolledClass
+    //var standard: EnrolledClass
     //var Person: Student
     
     init() {
